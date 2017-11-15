@@ -50,6 +50,7 @@ android {
 
         vectorDrawables.useSupportLibrary = true
     }
+    defaultConfig.versionName += "-val"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
